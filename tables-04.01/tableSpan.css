@@ -1,0 +1,23 @@
+
+
+table , td , th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: rgb(123, 108, 123);
+}
+
+.pink {
+    background-color: pink;
+}
