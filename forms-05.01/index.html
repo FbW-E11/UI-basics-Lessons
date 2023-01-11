@@ -109,7 +109,8 @@
             <br>
 
             <label for="volume">Volume between 0 and 50</label>
-            <input type="range" id="volume" name="volume" min="0" max="50">  <!-- step="10" -->
+            <input type="range" id="volume" name="volume" min="0" max="50" oninput="this.nextElementSibling.value = this.value">
+            <output></output>  <!-- step="10" -->
 
             <br>
 
